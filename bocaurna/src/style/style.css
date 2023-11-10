@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background:  linear-gradient(to right, rgb(4, 4, 239), rgb(155, 178, 246));
+}
+
+
+#root {
+    width: 350px;
+    padding: 0;
+    margin-top: 150px;
+    margin-left: 135px;
+    
+    
+    
+    
+}
+
+
+h1,h3 {
+    text-align: center;
+ 
+}
+
+h1 {
+    color: blue;
+    
+   
+}
+
+
+#contador {
+
+    font-size: 55px;
+}
+
+#tituloBocaUrna {
+    color:white;
+}
+
+#candidato {
+    margin: 10px 10px 10px 10px ; 
+
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    list-style: none;
+    justify-content:first baseline;
+    box-shadow: 6px 6px 10px #333;
+ 
+}
+ 
+
+button {
+    border-radius: 8px;
+    border: 1px solid rgb(78, 78, 78);
+    padding: 0.6em 1.2em;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: skyblue;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color:white;
+}
+
+#botones {
+    text-align: center;
+       
+}
