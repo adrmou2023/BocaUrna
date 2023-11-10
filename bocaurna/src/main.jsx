@@ -6,9 +6,12 @@ import { CandidatoApp } from './CandidatoApp.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <h1 id="tituloBocaUrna">Boca de urnas</h1>
-    <CandidatoApp titulo="Candidato 1" />
-    <br></br>
-    <CandidatoApp titulo="Candidato 2" />
+    <div><h1>Boca de urnas</h1></div>
+    <div>
+      <CandidatoApp titulo="Candidato 1" />
+    </div>
+    <div>
+      <CandidatoApp titulo="Candidato 2" />
+    </div>
   </React.StrictMode>,
 )

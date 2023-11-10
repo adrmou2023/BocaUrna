@@ -25,11 +25,11 @@ export const CandidatoApp = ({ titulo }) => {
     return (
 
         <>
-            <div id="candidato">
+            <div className="candidato">
                 <h3>{titulo}</h3>
-                <h1 id="contador">{contadorVotos}</h1>
-                <div id="botones">
-                    <button onClick={sumoVoto}>+</button>
+                <h1 className="contador">{contadorVotos}</h1>
+                <div className="botones">
+                    <button onClick={sumoVoto}>+</button> + "" + 
                     <button onClick={restoVoto}>-</button>
                 </div>
             </div>

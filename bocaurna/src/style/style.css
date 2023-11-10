@@ -1,3 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html, 
+body {
+
+    background:  linear-gradient(to right, rgb(4, 4, 239), rgb(155, 178, 246));
+    color: white;
+    margin-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#root {
+  
+    justify-content: center;
+    align-items: center;
+}
+
+h1,h3 {
+    text-align: center;
+}
+
+.contador {
+        color: blue;
+        font-size: 55px;
+}
+
+h3 {
+    color: black;
+}
+
+.candidato {
+
+    margin: 80px 650px 30px 650px ; 
+
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    list-style: none;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 6px 6px 10px #333;
+ 
+}
+
+
+.botones  {
+ 
+
+    background-color: white;
+    border-radius: 8px;
+    padding: 1px;
+    text-align: center;
+   
+ 
+}
+
+
+
+
+button {
+
+    
+    border-radius: 8px;
+    border: 1px solid rgb(78, 78, 78);
+    padding: 0.6em 1.2em;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: inherit;
+    background-color: skyblue;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color:white;
+
+    
+    
+}
+
+
+
+/*
+
 * {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -41,34 +131,11 @@ h1 {
     color:white;
 }
 
-#candidato {
-    margin: 10px 10px 10px 10px ; 
-
-    border: 1px solid gray;
-    background-color: white;
-    border-radius: 8px;
-    padding: 8px;
-    list-style: none;
-    justify-content:first baseline;
-    box-shadow: 6px 6px 10px #333;
  
-}
- 
-
-button {
-    border-radius: 8px;
-    border: 1px solid rgb(78, 78, 78);
-    padding: 0.6em 1.2em;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: inherit;
-    background-color: skyblue;
-    cursor: pointer;
-    transition: border-color 0.25s;
-    color:white;
-}
 
 #botones {
     text-align: center;
        
 }
+
+*/
